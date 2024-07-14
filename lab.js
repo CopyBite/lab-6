@@ -1,0 +1,5 @@
+let x1 = parseInt(prompt("x1"))
+let y1 = parseInt(prompt("y1"))
+let x2 = parseInt(prompt("x2"))
+let y2 = parseInt(prompt("y2"))
+console.log(Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2)).toFixed(6))
